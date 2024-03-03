@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/responsive-style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<title>About</title>
+</head>
+
+<body class="about-page">
+
+	<nav class="nav-ab border-gray-200 px-2 sm:px-4 py-4">
+		<div class="md:container mx-auto flex flex-wrap justify-between items-center mx-auto">
+			<div class="flex md:order-2 justify-between w-full md:w-auto">
+				<button type="button" class="login font-medium rounded-lg px-4 py-2 text-center mr-3 bg-transparent">demo</button>
+				<button type="button"
+					class="signup text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center mr-3  shadow-xl">Sign
+					Up
+				</button>
+				<a href="#" class="flex items-center md:hidden">
+					<img src="./assets/images/footer-logo.png" class="mr-3 h-9 sm:h-9" alt="Flowbite Logo">
+				</a>
+				<button data-collapse-toggle="mobile-menu-4" type="button"
+					class="inline-flex menu-btn items-center p-2 text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+					aria-controls="mobile-menu-4" aria-expanded="false">
+					<span class="sr-only">Open main menu</span>
+					<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd"
+							d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+							clip-rule="evenodd"></path>
+					</svg>
+					<svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+						xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd"
+							d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+							clip-rule="evenodd"></path>
+					</svg>
+				</button>
+			</div>
+			<div class="justify-between items-center w-full md:flex md:w-auto ml-0 md:order-1 hidden md:flex" id="mobile-menu-4">
+				<a href="#" class="flex items-center hidden md:block">
+					<img src="./assets/images/footer-logo.png" class="mr-3 h-6 sm:h-9" alt="popup Logo">
+				</a>
+				<ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:font-medium md:ml-16">
+					<li>
+						<a href="#"
+							class="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:text-white-700 md:p-0"
+							aria-current="page">Home</a>
+					</li>
+					<li>
+						<a href="#"
+							class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">About
+							Us</a>
+					</li>
+					<li>
+						<a href="#"
+							class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Pricing</a>
+					</li>
+					<li>
+						<a href="#"
+							class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Features</a>
+					</li>
+					<li class="lg:hidden">
+						<a href="#"
+							class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">login</a>
+					</li>
+					<li class="lg:hidden">
+						<a href="#"
+							class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Sign Up</a>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</nav>
+
+	<section class="nav-sec about-bg">
+	
+		<div class="sm:container mx-auto undernav-content">
+			<h1>PropUp- the solution to landlords
+				headaches</h1>
+			<p>So much rental management is still done over the phone and on paper. PropUp brings owning a
+				rental into
+				the now with secure payments, safe documentation and job automation saving you time and money.
+			</p>
+		</div>
+	</section>
+
+	<section class="story-sec mt-16 mb-16">
+		<div class="md:container mx-auto flex items-center flex-col md:flex-row">
+			<div class="w-full lg:w-1/2">
+				<div class="story-content">
+					<h1>Our Story</h1>
+					<p class="mt-2 text-sm">Luke and Aaron saw hard working landlords having to Spend their evenings and
+						weekends making
+						calls and running errands to keep their rentals running well. And those landlords that couldn't
+						afford to spend the hours it took to manage a rental well had to pay Someone a chunk of mooney
+						to do it for them.
+					</p>
+					<p class="mt-4 text-sm">L & A understood that most of what needed doing in order to be a great
+						landlord was able to be
+						automated. And so, they imagined PropUp. PropUp would work in the background to monitor and tend
+						to the logistics involed in owning a rental property-it'd file the paperwork, calculate the
+						payments, Schedule the maintenance, etc and then call on the landlord if and uhen they were
+						needed.</p>
+				</div>
+			</div>
+			<div class="w-full lg:w-1/2 md:pl-8 mt-5 md:mt-0">
+				<p class="text-sm">
+					After a year and a half of long nights and early moringss PropUp was a reality. It was a faction too
+					late for those friends whoid Sold their rentals due to the workload, and they couldn't get back any
+					of the money that'd already been paid to the contracted property managers, but they knew that, at
+					least going forward, landords had the option to enjoy their own time while still managing their
+					properties well italics
+				</p>
+				<p class="mt-4 text-sm">
+					It's pretty simple, realy PropUp makes being a great landlord easy,
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="made-sec ">
+		<div class="items-center">
+			<div>
+				<div class="prop-content">
+					<div>
+						<p>“PropUp made me realise how much unnecessary time i was spending managing my rentals."</p>
+						<h6>Lisa - Northland, wellington</h6>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="read-sec mt-2 mb-10">
+		<div class="sm:container mx-auto flex items-center flex-col md:flex-row">
+			<div class="w-full lg:w-1/2 ">
+				<div class="working-sec">
+					<h1>Read a case study</h1>
+				</div>
+				<div class="flex gap-2 work-sec mt-2 items-center">
+					<img src="./assets/images/tick.png" alt="">
+					<p>A few excerpts from the case study in here</p>
+				</div>
+				<div class="flex gap-2 work-sec mt-2 items-center">
+					<img src="./assets/images/tick.png" alt="">
+					<p>Another sentence here</p>
+				</div>
+				<div class="flex gap-2 work-sec mt-2 items-center">
+					<img src="./assets/images/tick.png" alt="">
+					<p>Quote here</p>
+				</div>
+				<div class="flex gap-2 work-sec mt-2 items-center">
+					<img src="./assets/images/tick.png" alt="">
+					<p>Something else</p>
+				</div>
+				<div class="mt-6">
+					<button type="button"
+						class="signup text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center mr-3 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-xl">Read
+						Case Study</button>
+				</div>
+			</div>
+			<div class="w-full lg:w-1/2 hidden md:flex">
+				<img class="w-full" src="./assets/images/man-working.png" alt="">
+			</div>
+		</div>
+	</section>
+	<section class="kept-sec mt-4 mb-4 pt-5 md:pt-10 pb-5 md:pb-8">
+		<div class="md:container mx-auto items-center">
+			<div>
+				<div class="kept-content">
+					<p>"I kept seeing money going to my Property manager and I needed a change. Propup was easy and I
+						Saw the changes immediately."</p>
+					<h6>Aaron - Nelson, New Zealand </h6>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="read-sec mt-20 mb-16">
+		<div class="sm:container mx-auto flex items-center flex-col md:flex-row">
+			<div class="w-full md:w-1/2">
+				<img class="w-80 m-auto" src="./assets/images/rectangle.png" alt="">
+			</div>
+			<div class="w-full md:w-1/2">
+				<div class="working-sec mt-5 md:mt-0">
+					<h1>Meet the Founders</h1>
+				</div>
+				<div class="rectangle">
+					<h6 class="mt-4">Blurb about Luke</h6>
+					<h5 class="mt-4">Aaron is a CTO with reknown on the world stage. Aaron sold his first company when
+						he was 23,
+						which he built alongside industry titans, such as the inventor of cluster computing who
+						currently is one of the heads of Standford Data Science.</h5>
+					<h5 class="mt-4">Aaron is passionate about building an innovative elatform that continues to
+						evolve and provide more features to our users, while staying secure and fast.</h5>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="team-sec mt-4 mb-8">
+		<div class="join-bg flex items-center px-2 pt-8 lg:pl-20 pb-12 flex-col lg:flex-row">
+			<div class="w-full lg:w-3/5">
+				<div class="join-content lg:text-left text-center ">
+					<h1>
+						Join the Team
+					</h1>
+					<p>PropUp is growing fast. Contacr us to see where you might fit in! </p>
+				</div>
+				<div class="mt-6">
+					<button type="button"
+						class="signup text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-xl">Contact
+						Us</button>
+				</div>
+			</div>
+			<div class="w-full lg:w-2/5 mt-10 lg:mt-0">
+				<img class="w-60 m-auto" src="./assets/images/team.png" alt="">
+			</div>
+		</div>
+	</section>
+	<section class="review-sec mt-20 mb-6">
+		<div class="md:container mx-auto flex items-center flex-col md:flex-row">
+			<div class="w-full md:w-1/2 hidden md:flex">
+				<div>
+					<img class="w-96 m-auto md:m-l-0" src="./assets/images/working-girl.png" alt="">
+				</div>
+			</div>
+			<div class="w-full md:w-1/2 md:text-left text-center">
+				<div class="work-content">
+					<h1>KeyHook Reviews</h1>
+				</div>
+				<div class="flex flex-col justify-center items-center md:items-start">
+					<div class="flex gap-4 store mt-4 text-center">
+						<div>
+							<img src="./assets/images/g-play.png" alt="">
+						</div>
+						<div>
+							<img src="./assets/images/A-store.png" alt="">
+						</div>
+					</div>
+					<div class="flex items-center mt-2 gap-8">
+						<div class="flex items-center gap-1 md:gap-2 y-star">
+							<img class="w-4" src="./assets/images/y-star.png" alt="">
+							<img class="w-4" src="./assets/images/y-star.png" alt="">
+							<img class="w-4" src="./assets/images/y-star.png" alt="">
+							<img class="w-4" src="./assets/images/y-star.png" alt="">
+							<img class="w-4" src="./assets/images/y-star.png" alt="">
+							<p>(4.9)</p>
+						</div>
+						<div class="flex items-center gap-1 md:gap-2 y-star">
+							<img class="w-4" src="./assets/images/y-star.png" alt="">
+							<img class="w-4" src="./assets/images/y-star.png" alt="">
+							<img class="w-4" src="./assets/images/y-star.png" alt="">
+							<img class="w-4" src="./assets/images/y-star.png" alt="">
+							<img class="w-4" src="./assets/images/y-star.png" alt="">
+							<p>(5.0)</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<section class="keyhook-sec mt-4 pt-10 pb-12">
+		<div class="md:container mx-auto flex items-center flex-col md:flex-row">
+			<div class="w-full md:w-3/5 text-center md:text-left">
+				<h2>
+					Media Enquiries
+				</h2>
+				<p>
+					Click below for media enquiries
+				</p>
+			</div>
+			<div class="w-full md:w-2/5 text-center mt-5 md:mt-0">
+				<button type="button"
+					class="signup text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center mr-3 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-xl">Contact
+					Us</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer-sec pt-16 pb-8">
+		<div class="md:container flex-col md:flex-row mx-auto flex items-start justify-between">
+			<div class="order-1 md:order-1 w-full md:w-2/6">
+				<div class="footer-logo">
+					<a href="#" class="flex items-center">
+						<img src="./assets/images/footer-logo.png" class="mr-3 h-9 sm:h-9" alt="Flowbite Logo">
+					</a>
+					<p class="mt-4">Manage Your Property From Your Pocket.</p>
+					<div class="flex gap-2 mt-6 call">
+						<a href="#">
+							<img src="./assets/images/call.png">
+						</a>
+						<a href="#">+1(254) 452-325XXX</a>
+					</div>
+					<div class="flex gap-2 mt-2 call">
+						<a href="#">
+							<img src="./assets/images/map.png">
+						</a>
+						<a href="#">650/a Wall Heights Road, TX 702</a>
+					</div>
+				</div>
+			</div>
+			<div class="order-3 md:order-2 flex w-full md:w-2/6  mt-10 md:mt-0">
+				<div class="w-1/2 md:w-1/2 footer-para">
+					<div>
+						<p class="mb-2">
+							Links
+						</p>
+						<ul>
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#">About Us</a>
+							</li>
+							<li>
+								<a href="#">Pricing</a>
+							</li>
+							<li>
+								<a href="#">FAQs</a>
+							</li>
+							<li>
+								<a href="#">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="w-1/2 md:w-1/2 footer-para">
+					<div>
+						<p class="mb-2">
+							Apps
+						</p>
+						<ul>
+							<li>
+								<a href="#">Web</a>
+							</li>
+							<li>
+								<a href="#">Android</a>
+							</li>
+							<li>
+								<a href="#">iOS</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="order-2 md:order-3 w-full md:w-2/6 mt-10 md:mt-0">
+				<div class="social">
+					<p>Follow Us</p>
+					<div class="flex mt-4 gap-2">
+						<a href="#">
+							<svg class="fb-svg" width="8" height="15" viewBox="0 0 8 15" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M6.58861 2.87912H7.88141V0.631658C7.25587 0.563115 6.62695 0.529995 5.99767 0.532458C5.56232 0.506949 5.12666 0.577087 4.72132 0.737944C4.31597 0.898802 3.95077 1.14648 3.65137 1.46356C3.35197 1.78065 3.12565 2.15945 2.9883 2.57335C2.85095 2.98726 2.80591 3.42622 2.85634 3.85939V5.84339H0.799805V8.36072H2.85634V14.6946H5.379V8.36072H7.35234L7.66594 5.84339H5.37794V4.10899C5.37901 3.38152 5.57421 2.87912 6.58861 2.87912Z"
+									fill="white" />
+							</svg>
+
+						</a>
+						<a href="#">
+							<svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M12.339 12.3428V8.03563C12.339 5.92896 11.8856 4.3023 9.42271 4.3023C8.96047 4.28639 8.50255 4.39602 8.09762 4.61951C7.6927 4.84301 7.35588 5.17204 7.12297 5.57163H7.08884V4.50496H4.75391V12.345H7.18591V8.46016C7.18591 7.43829 7.38004 6.44949 8.64511 6.44949C9.89204 6.44949 9.91124 7.61643 9.91124 8.52523V12.3418L12.339 12.3428Z"
+									fill="#212A5C" />
+								<path d="M0.798828 4.5H3.22869V12.34H0.798828V4.5Z" fill="#212A5C" />
+								<path
+									d="M2.01032 0.597671C1.72962 0.596405 1.45487 0.678568 1.22094 0.833731C0.987013 0.988894 0.804462 1.21006 0.696455 1.46916C0.588449 1.72825 0.559858 2.0136 0.614311 2.28898C0.668764 2.56435 0.803806 2.81734 1.0023 3.01583C1.20079 3.21432 1.45377 3.34936 1.72915 3.40382C2.00453 3.45827 2.28987 3.42968 2.54897 3.32167C2.80807 3.21366 3.02923 3.03111 3.1844 2.79719C3.33956 2.56326 3.42172 2.28851 3.42046 2.0078C3.42046 1.63381 3.27189 1.27514 3.00744 1.01069C2.74299 0.746238 2.38431 0.597671 2.01032 0.597671Z"
+									fill="#212A5C" />
+							</svg>
+
+						</a>
+						<a href="#"><svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.7197 1.68799C14.1915 1.91832 13.6328 2.07136 13.061 2.14239C13.6637 1.78481 14.1142 1.21854 14.3271 0.550926C13.763 0.885474 13.1457 1.12105 12.5021 1.24746C12.1069 0.82716 11.5945 0.535241 11.0315 0.409532C10.4684 0.283824 9.88058 0.330121 9.34414 0.542422C8.80769 0.754723 8.34738 1.12324 8.02284 1.60022C7.6983 2.07721 7.52449 2.64067 7.52394 3.21759C7.52186 3.43808 7.5444 3.6581 7.59114 3.87359C6.44602 3.81743 5.32566 3.52018 4.30331 3.00129C3.28096 2.48239 2.37966 1.75354 1.65834 0.862393C1.28763 1.49578 1.17271 2.2468 1.33706 2.96207C1.5014 3.67733 1.93261 4.30287 2.54261 4.71092C2.08707 4.69881 1.64111 4.57735 1.24234 4.35679V4.38879C1.24308 5.0534 1.47281 5.69746 1.89286 6.21251C2.3129 6.72756 2.89759 7.08213 3.54847 7.21653C3.30241 7.28144 3.04881 7.31336 2.79434 7.31146C2.61142 7.31475 2.42867 7.2983 2.24927 7.26239C2.43521 7.83362 2.79363 8.33318 3.2752 8.6923C3.75676 9.05143 4.3378 9.25246 4.93834 9.26773C3.91919 10.0629 2.66299 10.4936 1.37034 10.4912C1.14005 10.4928 0.909885 10.4796 0.681274 10.4517C1.99732 11.2996 3.53071 11.7482 5.09621 11.7435C6.17386 11.751 7.24227 11.5443 8.23936 11.1354C9.23646 10.7265 10.1424 10.1235 10.9044 9.36152C11.6665 8.59953 12.2696 7.69371 12.6786 6.69667C13.0877 5.69963 13.2945 4.63125 13.2871 3.55359C13.2871 3.42666 13.2871 3.30399 13.2765 3.18133C13.8443 2.77542 14.3334 2.26937 14.7197 1.68799Z"
+									fill="#212A5C" />
+							</svg>
+						</a>
+						<a href="#"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M9.35868 0.328125H4.44454C3.3585 0.328125 2.31694 0.759554 1.54899 1.5275C0.781039 2.29545 0.349609 3.33701 0.349609 4.42306L0.349609 9.33719C0.349609 10.4232 0.781039 11.4648 1.54899 12.2327C2.31694 13.0007 3.3585 13.4321 4.44454 13.4321H9.35868C10.4447 13.4321 11.4863 13.0007 12.2542 12.2327C13.0222 11.4648 13.4536 10.4232 13.4536 9.33719V4.42306C13.4536 3.33701 13.0222 2.29545 12.2542 1.5275C11.4863 0.759554 10.4447 0.328125 9.35868 0.328125V0.328125ZM12.2248 9.33719C12.224 10.0971 11.9217 10.8256 11.3844 11.3629C10.8471 11.9002 10.1186 12.2025 9.35868 12.2033H4.44454C3.68466 12.2025 2.95614 11.9002 2.41882 11.3629C1.8815 10.8256 1.57926 10.0971 1.57841 9.33719V4.42306C1.57926 3.66317 1.8815 2.93465 2.41882 2.39733C2.95614 1.86001 3.68466 1.55777 4.44454 1.55693H9.35868C10.1186 1.55777 10.8471 1.86001 11.3844 2.39733C11.9217 2.93465 12.224 3.66317 12.2248 4.42306V9.33719Z"
+									fill="#212A5C" />
+								<path
+									d="M6.90171 3.60498C6.25383 3.60498 5.6205 3.79711 5.08181 4.15705C4.54312 4.51699 4.12326 5.02859 3.87533 5.62715C3.6274 6.22571 3.56253 6.88435 3.68892 7.51978C3.81531 8.15521 4.1273 8.73889 4.58542 9.19701C5.04354 9.65513 5.62722 9.96711 6.26265 10.0935C6.89808 10.2199 7.55672 10.155 8.15528 9.9071C8.75384 9.65916 9.26545 9.23931 9.62539 8.70062C9.98534 8.16193 10.1774 7.52859 10.1774 6.88071C10.1774 6.01193 9.83232 5.17874 9.21801 4.56442C8.60369 3.9501 7.77049 3.60498 6.90171 3.60498ZM6.90171 8.92871C6.49687 8.92871 6.10112 8.80866 5.76451 8.58374C5.42789 8.35882 5.16553 8.03913 5.0106 7.6651C4.85567 7.29108 4.81513 6.8795 4.89411 6.48244C4.97309 6.08537 5.16805 5.72064 5.45432 5.43438C5.74059 5.14811 6.10531 4.95317 6.50238 4.87419C6.89945 4.7952 7.31102 4.83573 7.68505 4.99066C8.05907 5.14559 8.37876 5.40795 8.60368 5.74456C8.8286 6.08118 8.94865 6.47694 8.94865 6.88179C8.94781 7.42441 8.73187 7.94455 8.34818 8.32824C7.96449 8.71193 7.44433 8.92786 6.90171 8.92871V8.92871Z"
+									fill="#212A5C" />
+								<path
+									d="M10.4237 3.7949C10.6646 3.7949 10.86 3.59957 10.86 3.35863C10.86 3.11769 10.6646 2.92236 10.4237 2.92236C10.1828 2.92236 9.98743 3.11769 9.98743 3.35863C9.98743 3.59957 10.1828 3.7949 10.4237 3.7949Z"
+									fill="#212A5C" />
+							</svg>
+						</a>
+						<a href="#"><svg width="15" height="11" viewBox="0 0 15 11" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M14.3097 2.4558C14.2289 2.15423 14.0704 1.87911 13.8501 1.65789C13.6299 1.43666 13.3554 1.27706 13.0542 1.195C11.2045 0.970299 9.34184 0.869808 7.47872 0.894198C5.61586 0.872024 3.75351 0.970004 1.90326 1.18753C1.60278 1.2735 1.32947 1.43531 1.1096 1.65742C0.889735 1.87953 0.7307 2.15447 0.647789 2.4558C0.445189 3.58681 0.346644 4.734 0.353389 5.883C0.346254 7.03201 0.444802 8.17924 0.647789 9.3102C0.729382 9.61078 0.888181 9.8848 1.10842 10.105C1.32866 10.3253 1.60267 10.4841 1.90326 10.5657C3.75286 10.7916 5.61551 10.8935 7.47872 10.8707C9.34149 10.8943 11.2038 10.7978 13.0542 10.5817C13.355 10.5002 13.6292 10.3415 13.8496 10.1213C14.0701 9.90101 14.229 9.62691 14.3107 9.3262C14.5129 8.19515 14.6111 7.04796 14.6041 5.899C14.6176 4.7459 14.5193 3.59421 14.3107 2.46007L14.3097 2.4558ZM6.05899 8.02167V3.74646L9.76779 5.8798L6.05899 8.02167Z"
+									fill="#212A5C" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-build">
+			<p>© Copyright 2022 PropUp Group Ltd. All Rights Reserved.</p>
+		</div>
+	</section>
+
+</body>
+<script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+</html>
